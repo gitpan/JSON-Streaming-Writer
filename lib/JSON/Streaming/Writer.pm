@@ -9,7 +9,7 @@ use B;
 
 use constant ROOT_STATE => {};
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub for_stream {
     my ($class, $fh) = @_;
@@ -509,4 +509,9 @@ it has already generated.
 The state stack means that it will use more memory for deeper
 data structures.
 
+=head1 LICENSE
 
+Copyright 2009 Martin Atkins <mart@degeneration.co.uk>.
+
+This program is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
